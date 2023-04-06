@@ -16,7 +16,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class SecondActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNav;
-    //babhs fdsfdsfsd
+    //dsadsadsa
+    //dsadsadsa
     private ActivitySecondBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
