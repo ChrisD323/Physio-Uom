@@ -39,6 +39,8 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
 
+
+
         bottomNav = findViewById(R.id.BottomNav);
         bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -63,6 +65,11 @@ public class SecondActivity extends AppCompatActivity {
 
         });
 
+
+    }
+
+    public int dsadsa(int x){
+        return 5;
     }
 
 
