@@ -16,7 +16,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class SecondActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNav;
-    //babhs fdsfdsfsd
+    //dsadsadsa
+    //dsadsadsa
     private ActivitySecondBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,8 @@ public class SecondActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
 
         bottomNav = findViewById(R.id.BottomNav);
         bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -62,6 +65,11 @@ public class SecondActivity extends AppCompatActivity {
 
         });
 
+
+    }
+
+    public int dsadsa(int x){
+        return 5;
     }
 
 

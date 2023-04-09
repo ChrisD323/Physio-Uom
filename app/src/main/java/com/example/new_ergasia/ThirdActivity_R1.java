@@ -38,7 +38,8 @@ public class ThirdActivity_R1 extends AppCompatActivity {
                         finish();
                         return true;
                     case R.id.help:
-                        // Handle dashboard button click
+                        ExampleDialog exampleDialog = new ExampleDialog();
+                        exampleDialog.show(getSupportFragmentManager(),"example dialog");
                         return true;
                     case R.id.back:
                         onBackPressed();
